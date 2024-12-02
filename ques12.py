@@ -10,6 +10,12 @@ for i in range(0,4):
     sumc=sumcol(l,i)
     sum.append(sumc)
     sumc=0
-print(sum)
+
+for i in range(0,3):
+    for j in range(0,4):
+        print(f"{l[i][j]:3d}",end=" ")
+    print()
+for i in sum:
+    print(f"{i:3d}",end=" ")
 
 
