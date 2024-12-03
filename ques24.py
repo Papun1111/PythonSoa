@@ -4,6 +4,5 @@ k=int(input("Enter length:"))
 count=0
 for i in loft:
     if len(i)==k:
-        loft.pop(count)
-    count+=1
+        loft.remove(i)
 print(loft)
