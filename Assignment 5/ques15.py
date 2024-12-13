@@ -4,7 +4,7 @@ def roll_dice():
     return random.randint(1, 6) + random.randint(1, 6)
 
 def simulate_craps(num_games=1000000):
-    rolls = {}  # Track both wins and losses in a single dictionary
+    rolls = {} 
     
     for _ in range(num_games):
         roll_count = 0
