@@ -1,8 +1,7 @@
-# Define the two sets
+
 set1 = {'red', 'green', 'blue'}
 set2 = {'cyan', 'green', 'blue', 'magenta', 'red'}
 
-# a) Compare sets using comparison operators
 is_subset = set1 <= set2  # Subset
 is_superset = set1 >= set2  # Superset
 is_proper_subset = set1 < set2  # Proper Subset
